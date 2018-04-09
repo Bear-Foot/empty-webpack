@@ -1,3 +1,5 @@
+import React from 'react'
+
 export const something = ({ stuff } = {}) => {
   const test = { lol: 'hey' }
   
@@ -6,3 +8,5 @@ export const something = ({ stuff } = {}) => {
     stuff,
   }
 }
+
+export const App = () => <div> App </div>
